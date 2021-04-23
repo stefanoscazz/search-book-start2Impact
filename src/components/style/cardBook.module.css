@@ -1,0 +1,10 @@
+.link {
+  text-decoration: none;
+  color: white;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

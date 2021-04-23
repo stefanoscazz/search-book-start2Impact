@@ -1,0 +1,47 @@
+* {
+  text-decoration: none;
+}
+/* */
+.container {
+  color: #3b4453;
+  background: url("../img/wave.png");
+  background-size: cover;
+  min-height: calc(100vh - 100px);
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  padding: 10%;
+}
+.sectionDescription {
+  padding-left: 10%;
+}
+.link {
+  text-decoration: none;
+  color: #5c5e62;
+  font-weight: 900;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  .sectionDescription {
+    padding-left: 0;
+  }
+  .flex {
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+  .flex {
+    flex-direction: row;
+    padding: 20px 20px;
+  }
+}

@@ -1,0 +1,30 @@
+.container_form_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background:linear-gradient(217deg, rgba(0,0,0,.4), rgba(0,0,0,0.3)), url("../img/booksBackground.jpg");
+  background-position: center;
+  flex-direction: column;
+  color: white;
+}
+.homeContainer{
+  min-height:100vh;
+
+}
+
+
+
+/* Media query mobile device */
+@media only screen and (max-width: 600px) {
+  .mobileMedia {
+      text-align: center;
+      font-size: 50px!important;
+  }
+}
+
+
+
+
